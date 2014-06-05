@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="KerBob Server" uploadOnCheckin="42761580-c81a-4091-9985-cfa4dad2ae49">
+  <component name="PublishConfigData" autoUpload="Always" serverName="KerBob Server" uploadOnCheckin="42761580-c81a-4091-9985-cfa4dad2ae49">
     <serverData>
       <paths name="KerBob Server">
         <serverdata>
@@ -11,6 +11,7 @@
       </paths>
     </serverData>
     <option name="myUploadOnCheckinName" value="KerBob Server" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
 

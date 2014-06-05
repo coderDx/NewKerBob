@@ -97,11 +97,95 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-image:url('../img/background.jpg');
+}
+
+header {
+    width:100%;
+    color:white;
+    background-color: black;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:1em;
+    text-decoration: none;
+
+}
+
+.nav a:visited{
+    color:white;
+    text-decoration: none;
+
+}
 
 
+.home_page_first {
+    color: #00008b;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
 
+.col-3 {
+    width: 31%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    border-right: thin solid grey;
+}
 
+.col-3-end {
+    width: 31%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    border:none;
+}
 
+footer {
+    margin-top: 1em;
+    border-top:  thin solid grey;
+    clear:both;
+}
+
+.footer_link {
+    color: #dfdfdf;
+    font-size: 0.8em;
+    float: left;
+    margin: 1em;
+}
+
+.footer_link a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+.footer_link a:hover {
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer_link a:visited {
+    text-decoration: none;
+}
+
+.interior-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
