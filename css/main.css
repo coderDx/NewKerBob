@@ -21,6 +21,14 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    background: url(/img/lakeTravis.jpg);
+    background-size: cover;
+    background-position:center;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height:100%;
 }
 
 /*
@@ -97,8 +105,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.rounded-corners {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
 body {
-    background-image:url('../img/background.jpg');
 }
 
 header {
@@ -121,11 +135,12 @@ header {
     display:inline-block;
     padding:1em;
     text-decoration: none;
+    color: #dddddd;
 
 }
 
 .nav a:visited{
-    color:white;
+    color: #dddddd;
     text-decoration: none;
 
 }
@@ -140,19 +155,29 @@ header {
 }
 
 .col-3 {
-    width: 31%;
+    width: 29%;
     padding: 1%;
     float: left;
     text-align: center;
-    border-right: thin solid grey;
+    margin: 0 1%;
+    background-color:rgba(0,0,0,0.6);
+    min-height: 12em;
 }
 
-.col-3-end {
-    width: 31%;
-    padding: 1%;
-    float: left;
-    text-align: center;
-    border:none;
+.center_menu {
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+.center_menu h2 {
+    color: #dddddd;
+    margin: 0;
+}
+
+.center_menu p {
+    color: #aaaaaa;
 }
 
 footer {
@@ -185,6 +210,8 @@ footer {
 .interior-content {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
 

@@ -26,49 +26,44 @@
             include_once("includes/header.php");
         ?>
 
-        <img src="/img/lakeTravis.jpg" style="width: 100%;">
+		<div class="center_menu">
 
-        <div>
-            <div class="clearfix">
+			<div>
+				<div class="clearfix">
 
-				<div class="col-3">
-					<h2>Internet Of Things</h2>
-					<div style="text-align: left">
-						<p>It is the dawn of a new age. Just as the Internet revolutionized the world in the 90's, the Internet of Things is revolutionizing the world today. Not only are people interacting with eachother
-							using the internet, but now devices are talking to eachother over the internet as well.</p>
-						<p>At KerBob, LLC we are software AND hardware experts. We have the knowledge and experience to connect devices to the interent, and to eachother.</p>
+					<div class="col-3 rounded-corners">
+						<h2>Internet Of Things</h2>
+						<div style="text-align: left">
+							<p>Just as the Internet revolutionized the world in the 90's, the Internet of Things is revolutionizing the world today. Not only are people interacting with eachother
+								using the internet, but now devices are talking to eachother over the internet as well.</p>
+							</p>
+							<img src="/img/button-learn.png" onclick="window.location.href = '/iot.php';" style="cursor:pointer;float: right">
+						</div>
+					</div>
 
-						</p>
-						<b><i><span style="float: right">Learn More...</span></i></b>
+					<div class="col-3 rounded-corners">
+						<h2>Existing Projects</h2>
+						<div style="text-align: left">
+							<p>Whether you need a new webmaster, or additional programmer on your team, KerBob has the skills and experience to fill your need. And, you will save money over having to hire full-time employees.</p>
+							<img src="/img/button-learn.png" onclick="window.location.href = '/iot.php';" style="cursor:pointer;float: right">
+						</div>
+					</div>
+
+					<div class="col-3 rounded-corners">
+						<h2>New Projects</h2>
+						<div style="text-align: left">
+							<p>Using the very latest in web, mobile, and e-commerce technology, we create new, state of the art web presences for products and business that adapt to and view properly across all device.</p>
+							<img src="/img/button-learn.png" onclick="window.location.href = '/iot.php';" style="cursor:pointer;float: right">
+						</div>
 					</div>
 				</div>
-
-				<div class="col-3">
-					<h2>Existing Web Applications</h2>
-					<div style="text-align: left">
-						<p>Whether you need a new webmaster, or additional programmer on your team, KerBob has the skills and experience to fill your need. And, you will save money over having to hire full-time employees.</p>
-						<p>Let our experienced programmer/developers help with expanding or maintaining your existing web based projects. We have over 10 years experience in Linux, Apache, MySQL, and PHP.</p>
-						<b><i><span style="float: right">Learn More...</span></i></b>
-					</div>
-				</div>
-
-				<div class="col-3-end">
-					<h2>Web Design And Development</h2>
-					<div style="text-align: left">
-						<p>Our experienced designers and UI/UX specialists can create a new, state of the art web presence for your product or business, using the very latest in web and e-commerce technology.</p>
-						<p>From WordPress, Drupal, Joomla, or a completely custom CMS, we can professionally design and implement your new site and make your business look, and sell, its very best.</p>
-						<b><i><span style="float: right">Learn More...</span></i></b>
-					</div>
-				</div>
+			</div>
 
 
-
-
-            </div>
-        </div>
+		</div>
 
         <?php
-        include_once("includes/footer.php");
+        //include_once("includes/footer.php");
         ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

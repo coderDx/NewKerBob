@@ -5,6 +5,18 @@
 		</li>
 
 		<li>
+			<a href="/iot.php">IoT</a>
+		</li>
+
+		<li>
+			<a href="/existing_projects.php">Existing</a>
+		</li>
+
+		<li>
+			<a href="/new_projects.php">New</a>
+		</li>
+
+		<li>
 			<a href="/technical.php">Technologies</a>
 		</li>
 
