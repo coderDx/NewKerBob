@@ -9,15 +9,11 @@
 		</li>
 
 		<li>
-			<a href="/existing_projects.php">Existing</a>
+			<a href="/web.php">Web</a>
 		</li>
 
 		<li>
-			<a href="/new_projects.php">New</a>
-		</li>
-
-		<li>
-			<a href="/technical.php">Technologies</a>
+			<a href="/mobile.php">Mobile</a>
 		</li>
 
 		<li>

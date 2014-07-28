@@ -12,7 +12,7 @@
     </div>
 
     <div class="footer_link">
-        <a href="/technical.php">Technical</a>
+        <a href="/web.php">Technical</a>
     </div>
 
     <div class="footer_link">
