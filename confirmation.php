@@ -3,19 +3,9 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
+<?php
+include_once("includes/head.php");
+?>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -26,26 +16,15 @@
             include_once("includes/header.php");
         ?>
 
-		<div class="interior-content">
+		<div class="interior-page">
 
+			<h1 style="font-weight: 500;">Thank You!</h1>
 
-			<h1>Samples Of Our Work</h1>
+			<p style="text-align: center">Your message has been sent. Someone will be contacting you shortly. </p>
 
-			Add<br><br>
-			<ul>
-				<li>Rodman Law Office</li>
-				<li>Artinvesta</li>
-				<li>King CPA Firm</li>
-				<li>Alfred's Catering</li>
-				<li>WGPG</li>
-				<li>Sports Corner</li>
-			</ul>
+			<button class="submit-button rounded-corners" onClick="parent.location='index.php'">Home</button>
 
 		</div>
-
-        <?php
-        include_once("includes/footer.php");
-        ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

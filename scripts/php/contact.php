@@ -28,7 +28,9 @@ $message = wordwrap($message, 70);
 
 mail($toAddress, $subject, $message);
 
-$confirmation = "Thank you! Your message has been sent. Someone will be contacting you shortly." .
-    "<br /><br /><a href='/'><input type='button' value='Back' /></a>";
+//$confirmation = "Thank you! Your message has been sent. Someone will be contacting you shortly." .
+//    "<br /><br /><a href='/'><input type='button' value='Back' /></a>";
 
-echo $confirmation;
+//echo $confirmation;
+
+header( 'Location: /confirmation.php' ) ;

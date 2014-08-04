@@ -5,44 +5,44 @@
 		</li>
 
 		<li>
-			<a href="/iot.php">IoT</a>
+			<a href="/internet-of-things.php">IoT</a>
 		</li>
 
 		<li>
-			<a href="/web.php">Web</a>
+			<a href="/web-design-and-development.php">Web</a>
 		</li>
 
 		<li>
-			<a href="/mobile.php">Mobile</a>
+			<a href="/content-management-systems.php">CMS</a>
 		</li>
 
 		<li>
-			<a href="/samples.php">Samples</a>
+			<a href="/client-portfolio.php">Clients</a>
 		</li>
 
 		<li>
-			<a href="/about.php">About</a>
+			<a href="/about-us.php">About</a>
 		</li>
 
 		<li>
-			<a href="/contact.php">Contact</a>
+			<a href="/contact-us.php">Contact</a>
 		</li>
 	</ul>
 
 	<a href="https://www.facebook.com/KerBob" target="_blank">
-		<img src="/img/icon_facebook.png" style="right:9em; top:0.25em; height:2em; position:absolute; margin:0.5em;">
+		<img class="sm-icon1" src="/img/icon_facebook.png">
 	</a>
 
 	<a href="https://twitter.com/KerBobWeb" target="_blank">
-		<img src="/img/icon_twitter.png" style="right:6em; top:0.25em; height:2em; position:absolute; margin:0.5em;">
+		<img class="sm-icon2" src="/img/icon_twitter.png">
 	</a>
 
 	<a href="https://www.linkedin.com/company/kerbob-interactive-web-solutions" target="_blank">
-		<img src="/img/icon_linkedin.png" style="right:3em; top:0.25em; height:2em; position:absolute; margin:0.5em;">
+		<img class="sm-icon3" src="/img/icon_linkedin.png">
 	</a>
 
 	<a href="http://www.coderdx.net" target="_blank">
-		<img src="/img/icon_coderDx.png" style="right:0em; top:0.25em; height:2em; position:absolute; margin:0.5em;">
+		<img class="sm-icon4" src="/img/icon_coderDx.png">
 	</a>
 
 </header>
