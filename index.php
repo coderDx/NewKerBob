@@ -34,36 +34,27 @@
 				include_once("includes/header.php");
 			?>
 
-			<div class="home-title-container">
-				<span class="home-kerbob-font">KerBob</span>
-				<span class="home-interactive-font">Interactive Web Solutions, LLC</span>
-			</div>
+			<div class="home-kerbob-font">KerBob, LLC</div><br>
+			<div class="home-interactive-font">Hardware and Software Programming For The Web and The Internet Of Things</div>
 
 			<div class="center_menu clearfix">
 
-					<div class="col-3 rounded-corners clearfix">
+					<div class="col-2 rounded-corners clearfix">
 						<h2>Internet Of Things</h2>
-						<div style="text-align: left;">
-							<p>The interconnected world of the future is here today. We have the software AND HARDWARE experience to prototype your IoT solution MVP, and get it into production in a timely and affordable manner.</p>
-							</p>
-						</div>
+						<p>People are talking about the Internet of Things. KerBob is creating it! Learn what the Internet of Things is, and how KerBob can take your IoT ideas and turn them into reality.</p>
+
+						<p>We've also created a tech meetup group devoted entirely to Internet of Things topics and hands-on learning. The AIoT meetup group meets twice per month in Austin, TX...</p>
+
 						<img class="learn-button" src="/img/button-learn.png" onclick="window.location.href = '/internet-of-things.php';">
 					</div>
 
-					<div class="col-3 rounded-corners clearfix">
-						<h2>Web Applications</h2>
-						<div style="text-align: left">
-							<p>With 6+ years of experience, we specialize in front and back end web-based application development in HTML5, PHP, and JavaScript. We also specialize in CMS applications using WordPress, Drupal, and Joomla.</p>
-							<img class="learn-button" src="/img/button-learn.png" onclick="window.location.href = '/web-design-and-development.php';">
-						</div>
-					</div>
+					<div class="col-2 rounded-corners clearfix">
+						<h2>Web Development</h2>
+						<p>With 6+ years of experience, KerBob specializes in front and back end web-based application development in HTML5, PHP, and JavaScript. We also specialize in CMS applications using WordPress, Drupal, and Joomla.</p>
 
-					<div class="col-3 rounded-corners clearfix">
-						<h2>WordPress, Drupal, Joomla</h2>
-						<div style="text-align: left">
-							<p>Many times, you want the ability to modify and edit your own content. WordPress, Drupal and Joomla CMS's make this task easier. Let us create a new CMS site for your business, or maintain your existing one.</p>
-							<img class="learn-button" src="/img/button-learn.png" onclick="window.location.href = '/content-management-systems.php';">
-						</div>
+						<p>Learn how KerBob can help with your existing web application or brand new website ideas...</p>
+
+						<img class="learn-button" src="/img/button-learn.png" onclick="window.location.href = '/web-design-and-development.php';">
 					</div>
 
 				</div>

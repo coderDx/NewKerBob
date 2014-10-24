@@ -142,9 +142,7 @@ header {
 
 .center_menu {
     width: 80%;
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
+    margin: 18% auto 0 auto;
 }
 
 .center_menu h2 {
@@ -154,6 +152,9 @@ header {
 
 .center_menu p {
     color: #aaaaaa;
+    font-size: 1.8em;
+    line-height: 1.5;
+    text-align: left;
 }
 
 .sm-icon1 {
@@ -293,16 +294,19 @@ header {
     color: #fbf558;
     opacity: 0.6;
     display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 .home-interactive-font {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 2.2em;
     color: #ffffff;
     opacity: 0.8;
     display: inline-block;
     padding: 0 0 0 1%;
+    text-align: center;
+    width: 100%;
 }
 
 .interior-page {
@@ -344,16 +348,7 @@ header {
 }
 
 .col-2 {
-    width:48%;
-    float: left;
-    padding: 1%;
-    margin: 0 0 2em 0;
-}
-
-
-
-.col-3 {
-    width: 29%;
+    width: 46%;
     padding: 1% 1% 0 1%;
     float: left;
     text-align: center;
@@ -364,16 +359,20 @@ header {
     position: relative;
 }
 
-.col-3 h2 {
+.col-2 h2 {
     font-weight: 400;
+    font-size: 2.5em;
 }
 
 .learn-button {
     cursor:pointer;
-    width: 30%;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
+    width: 20%;
+    float: right;
+}
+
+.learn-button img {
+    margin: 0;
+    padding: 0;
 }
 
 .newspaper {
@@ -652,18 +651,18 @@ footer {
         font-size: 1.5vw;
     }
 
-    .col-3 {
-        min-height: 20em;
+    .col-2 {
+        min-height: 18em;
     }
 
-    .col-3 h2 {
+    .col-2 h2 {
         font-size: 1.2em;
     }
 
 
 }
 
-@media (min-width: 800px) and (max-width: 1280px) {
+@media (min-width: 1014px) and (max-width: 1279px) {
 
     html {
         font-size: 1em;
@@ -695,17 +694,62 @@ footer {
         font-size: 1.5vw;
     }
 
-    .col-3 {
-        min-height: 23em;
+    .col-2 {
+        min-height: 20em;
     }
 
-    .col-3 h2 {
+    .col-2 h2 {
         font-size: 1em;
     }
 
 }
 
-@media (min-width: 720px) and (max-width: 799px) {
+
+
+
+@media (min-width: 800px) and (max-width: 1013px) {
+
+    html {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .home-page {
+        background-position: center;
+        font-size: 1em;
+    }
+
+    .home-title-container {
+        display: table;
+        margin: 0% auto 0 auto;
+    }
+
+    .interior-page h1 {
+        font-size: 3vw;
+    }
+
+    .interior-page h3 {
+        font-size: 2vw;
+    }
+
+    .interior-page p {
+        font-size: 1.5vw;
+    }
+
+    .col-2 {
+        min-height: 23em;
+    }
+
+    .col-2 h2 {
+        font-size: 1em;
+    }
+
+}
+
+@media (min-width: 741px) and (max-width: 799px) {
 
     html {
         font-size: 1em;
@@ -737,7 +781,7 @@ footer {
         font-size: 2.5vw;
     }
 
-    .col-3 {
+    .col-2 {
         min-height: 27em;
         background-color:rgba(0,0,0,.8);
     }
@@ -746,12 +790,87 @@ footer {
         font-size: 0.8em;
     }
 
-    .col-3 p{
+    .col-2 h2 {
+        font-size: 1.2em;
+    }
+
+    .nav a{
         font-weight: 400;
+    }
+
+    .nav a:visited{
+        font-weight: 400;
+    }
+}
+
+@media  (min-width: 553px) and (max-width: 740px) {
+
+    html {
         font-size: 1em;
     }
 
-    .col-3 h2 {
+    h2 {
+        font-size: 1em;
+    }
+
+    .home-page {
+        background-position: center;
+        font-size: 1em;
+    }
+
+    .home-title-container {
+        display: table;
+        margin: 0 auto 0 auto;
+    }
+
+    .home-kerbob-font {
+        font-size: 3em;
+    }
+
+    .home-interactive-font {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+        color: #ffffff;
+        opacity: 0.8;
+        display: inline-block;
+        padding: 0 0 0 1%;
+    }
+
+    .interior-page h1 {
+        font-size: 3.5vw;
+    }
+
+    .interior-page h3 {
+        font-size: 2.5vw;
+    }
+
+    .interior-page p {
+        font-size: 2.5vw;
+    }
+
+    .center_menu {
+        width: 80%;
+        margin: 12% 0 0 0;
+    }
+
+    .learn-button {
+        cursor:pointer;
+        width: 20%;
+    }
+
+    .col-2 {
+        width: 100%;
+        min-height: 14em;
+        margin: 10px 0 0 0;
+        background-color:rgba(0,0,0,.8);
+    }
+
+    .col-2 h2 {
+        font-size: 0.8em;
+    }
+
+    .col-2 h2 {
         font-size: 1.2em;
     }
 
@@ -763,79 +882,206 @@ footer {
         font-weight: 400;
     }
 
-    @media  (min-width: 420px) and (max-width: 719px) {
+}
 
-        html {
-            font-size: 1em;
-        }
+@media  (min-width: 513px) and (max-width: 552px) {
 
-        h2 {
-            font-size: 1em;
-        }
+    html {
+        font-size: 1em;
+    }
 
-        .home-page {
-            background-position: center;
-            font-size: 1em;
-        }
-
-        .home-title-container {
-            display: table;
-            margin: 0 auto 0 auto;
-        }
-
-        .home-kerbob-font {
-            font-size: 3em;
-        }
-
-        .home-interactive-font {
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: 300;
-            font-size: 1.5em;
-            color: #ffffff;
-            opacity: 0.8;
-            display: inline-block;
-            padding: 0 0 0 1%;
-        }
+    .nav li {
+        font-size: 2.5vw;
+    }
 
 
+    h2 {
+        font-size: 1em;
+    }
 
-        .interior-page h1 {
-            font-size: 3.5vw;
-        }
+    .home-page {
+        background-position: center;
+        font-size: 1em;
+    }
 
-        .interior-page h3 {
-            font-size: 2.5vw;
-        }
+    .home-title-container {
+        display: table;
+        margin: 0 auto 0 auto;
+    }
 
-        .interior-page p {
-            font-size: 2.5vw;
-        }
+    .home-kerbob-font {
+        font-size: 3em;
+    }
 
-        .col-3 {
-            min-height: 27em;
-            background-color:rgba(0,0,0,.8);
-        }
+    .home-interactive-font {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+        color: #ffffff;
+        opacity: 0.8;
+        display: inline-block;
+        padding: 0 0 0 1%;
+    }
 
-        .col-2 h2 {
-            font-size: 0.8em;
-        }
+    .interior-page h1 {
+        font-size: 3.5vw;
+    }
 
-        .col-3 p{
-            font-weight: 400;
-            font-size: 1em;
-        }
+    .interior-page h3 {
+        font-size: 2.5vw;
+    }
 
-        .col-3 h2 {
-            font-size: 1.2em;
-        }
+    .interior-page p {
+        font-size: 2.5vw;
+    }
 
-        .nav a{
-            font-weight: 400;
-        }
+    .center_menu {
+        width: 80%;
+    }
 
-        .nav a:visited{
-            font-weight: 400;
-        }
+    .learn-button {
+        cursor:pointer;
+        width: 20%;
+    }
+
+    .col-2 {
+        width: 100%;
+        min-height: 14em;
+        margin: 10px 0 0 0;
+        background-color:rgba(0,0,0,.8);
+    }
+
+    .col-2 h2 {
+        font-size: 0.8em;
+    }
+
+    .col-2 h2 {
+        font-size: 1.2em;
+    }
+
+    .nav a{
+        font-weight: 400;
+    }
+
+    .nav a:visited{
+        font-weight: 400;
+    }
+
+}
+
+@media  (min-width: 250px) and (max-width: 512px) {
+
+    html {
+        font-size: 1em;
+    }
+
+    .nav li {
+        font-size: 2.5vw;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .home-page {
+        background-position: center;
+        font-size: 1em;
+    }
+
+    .home-title-container {
+        display: table;
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .home-kerbob-font {
+        font-size: 3em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .home-interactive-font {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+        color: #ffffff;
+        opacity: 0.8;
+        width: 100%;
+        text-align: center;
+    }
+
+    .interior-page h1 {
+        font-size: 3.5vw;
+    }
+
+    .interior-page h3 {
+        font-size: 2.5vw;
+    }
+
+    .interior-page p {
+        font-size: 2.5vw;
+    }
+
+    .center_menu {
+        width: 80%;
+    }
+
+    .learn-button {
+        cursor:pointer;
+        width: 20%;
+    }
+
+    .col-2 {
+        width: 100%;
+        min-height: 15em;
+        margin: 10px 0 0 0;
+        background-color:rgba(0,0,0,.8);
 
     }
+
+    .col-2 h2 {
+        font-size: 0.8em;
+    }
+
+    .col-2 h2 {
+        font-size: 1.2em;
+    }
+
+    .nav a{
+        font-weight: 400;
+    }
+
+    .nav a:visited{
+        font-weight: 400;
+    }
+
+    .sm-icon1 {
+        position: absolute;
+        width: 3%;
+        right: 2.5%;
+        top: 0.7em;
+    }
+
+    .sm-icon2 {
+        position: absolute;
+        width: 3%;
+        right: 6%;
+        top: 0.7em;
+    }
+
+    .sm-icon3 {
+        position: absolute;
+        width: 3%;
+        right: 9.5%;
+        top: 0.7em;
+    }
+
+    .sm-icon4 {
+        position: absolute;
+        width: 3%;
+        right: 13%;
+        top: 0.7em;
+    }
+
 }
+
